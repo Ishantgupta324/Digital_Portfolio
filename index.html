@@ -1,96 +1,151 @@
-<!-- Name - Ishant Gupta--!>
-<!--   Roll No - 2502901520162--!>
-<!-- Section - 6  --!>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ishant Gupta | Digital Portfolio</title>
-    <link rel="stylesheet" href="digital_portfolio.css"> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ishant Gupta | B.Tech CSE (AI) Portfolio</title>
+<meta name="description" content="Portfolio of Ishant Gupta, B.Tech CSE (AI) student at ABESIT: projects, skills, certifications and CodeChef achievements.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="#home">Ishant Gupta</a>
+  <nav aria-label="Main"><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a></nav>
+  <button id="theme" class="icon" aria-label="Switch between light and dark theme"><span aria-hidden="true">◐</span></button>
+</header>
 
-    <nav>
-        <div class="logo">Ishant Gupta</div>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#achievements">Achievements</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+<main id="main">
+<section id="home" class="hero">
+  <div class="hero-text">
+    <p class="hello">Hi, I'm</p>
+    <h1>Ishant Gupta</h1>
+    <p class="role">B.Tech CSE (AI) student at ABESIT, Ghaziabad, building towards a career as an AI / Machine Learning Engineer.</p>
+    <div class="actions">
+      <a class="btn primary" href="assets/Ishant_Gupta_Resume.pdf" download>Download resume</a>
+      <a class="btn" href="assets/Ishant_Gupta_CV.pdf" download>Download CV</a>
+      <a class="btn" href="#contact">Get in touch</a>
+    </div>
+  </div>
+  <aside class="streak" aria-label="CodeChef problem-solving streak">
+    <h2>50 days in a row on CodeChef</h2>
+    <div id="grid" class="grid" role="img" aria-label="Fifty filled squares, one for each day of the streak"></div>
+    <ul class="stats">
+      <li><b>1000+</b> practice questions</li>
+      <li><b>10+</b> contests</li>
+      <li><b>Under 300</b> global rank</li>
+      <li><b>Under 150</b> country rank</li>
+    </ul>
+    <a class="link" href="https://www.codechef.com/users/ishantgupta162" target="_blank" rel="noopener">View CodeChef profile</a>
+  </aside>
+</section>
 
-    <section id="home" class="hero">
-        <h1>Ishant Gupta</h1>
-        <h3>B.Tech CSE (AI) Student</h3>
-        <p>Aspiring AI Engineer | Web Development Learner | Java Enthusiast</p>
-    </section>
+<section id="about" class="block">
+  <h2>About</h2>
+  <div class="content">
+    <p>I'm a second-year B.Tech student in Computer Science &amp; Engineering (Artificial Intelligence) with a strong base in Python, C, data structures and web development. I practise problem solving on CodeChef every day and enjoy turning small ideas into working tools.</p>
+    <p>I'm looking for an internship or entry-level role where I can apply these skills to real projects and work with a collaborative team.</p>
+    <dl class="facts">
+      <div><dt>College</dt><dd>ABES Institute of Technology</dd></div>
+      <div><dt>SGPA</dt><dd>8.55 (1st sem), 8.77 (2nd sem)</dd></div>
+      <div><dt>Class XII</dt><dd>85.2%, Smt. Ganga Devi Inter College</dd></div>
+      <div><dt>Class X</dt><dd>88.33%, Pt. Vrishbhanu Gaur Vidya Mandir</dd></div>
+    </dl>
+  </div>
+</section>
 
-    <section id="education">
-        <h2>Education</h2>
+<section id="experience" class="block">
+  <h2>Experience</h2>
+  <div class="content timeline">
+    <article>
+      <h3>Intern, Development and Deployment of Responsive Website</h3>
+      <p class="meta">ABES Institute of Technology (ABESIT)</p>
+      <ul>
+        <li>Built many simple, responsive websites using HTML, CSS, JavaScript and Bootstrap.</li>
+        <li>Used GitHub for version control, including push and pull.</li>
+      </ul>
+    </article>
+    <article>
+      <h3>Diploma in Computer Application &amp; Accounting (DCAA), 6 months</h3>
+      <p class="meta">KCE Institute</p>
+      <ul>
+        <li>Learned Microsoft Excel, Microsoft Office and PowerPoint presentations.</li>
+        <li>Learned Notepad, WordPad and Paint, plus Hindi and English typing.</li>
+      </ul>
+    </article>
+  </div>
+</section>
 
-        <div class="card">
-            <h3>10th Standard</h3>
-            <p>Pt Vrishbhanu Vidhya Mandir</p>
-            <p>Percentage: 88.33%</p>
-        </div>
+<section id="projects" class="block">
+  <h2>Projects</h2>
+  <div class="content rows">
+    <a href="https://github.com/Ishantgupta324" target="_blank" rel="noopener"><h3>Invyra</h3><p>An AI investment system that explores how AI can help with investment-related problem solving.</p></a>
+    <a href="https://github.com/Ishantgupta324" target="_blank" rel="noopener"><h3>QR Code Generator</h3><p>A small utility that turns text and links into QR codes.</p></a>
+    <a href="https://github.com/Ishantgupta324" target="_blank" rel="noopener"><h3>PDF Merger</h3><p>A tool that combines multiple PDF files into one document.</p></a>
+    <a href="https://github.com/Ishantgupta324" target="_blank" rel="noopener"><h3>Personal Portfolio</h3><p>An HTML portfolio showing my education, achievements and profiles.</p></a>
+  </div>
+</section>
 
-        <div class="card">
-            <h3>12th Standard</h3>
-            <p>Smt Ganga Devi Inter College</p>
-            <p>Percentage: 85.2%</p>
-        </div>
+<section id="skills" class="block">
+  <h2>Skills</h2>
+  <div class="content skills">
+    <div><h3>Programming</h3><p><span>C</span><span>Python</span><span>Java</span><span>JavaScript</span></p></div>
+    <div><h3>Web</h3><p><span>HTML</span><span>CSS</span><span>Bootstrap</span><span>Responsive design</span></p></div>
+    <div><h3>Data and AI</h3><p><span>NumPy</span><span>Pandas</span><span>Matplotlib</span><span>AI fundamentals</span><span>Machine learning basics</span></p></div>
+    <div><h3>Tools</h3><p><span>GitHub</span><span>VS Code</span><span>Microsoft Office</span><span>Data structures</span></p></div>
+  </div>
+</section>
 
-        <div class="card">
-            <h3>B.Tech CSE (AI)</h3>
-            <p>ABES Institute of Technology</p>
-            <p>1st Semester SGPA: 8.55</p>
-        </div>
-    </section>
+<section id="certifications" class="block">
+  <h2>Certifications</h2>
+  <div class="content certs">
+    <ul>
+      <li>Introduction to Generative AI <em>Google</em></li>
+      <li>AI and Cybersecurity Awareness <em>TCS iON</em></li>
+      <li>YUVA AI FOR ALL</li>
+      <li>Data Structures <em>CodeChef</em></li>
+      <li>Python Programming <em>CodeChef</em></li>
+      <li>Python and Pandas <em>Kaggle</em></li>
+      <li>Programming in C <em>Infosys Springboard</em></li>
+      <li>HTML, CSS and JavaScript <em>Unstop</em></li>
+      <li>Responsive Website Development <em>ABESIT</em></li>
+      <li>Soft Skill Enhancement and Personality Development, Elite <em>NPTEL</em></li>
+      <li>Email Etiquette <em>Infosys Springboard</em></li>
+      <li>Entrepreneurship: How to Start an Idea <em>Infosys</em></li>
+    </ul>
+  </div>
+</section>
 
-    <section id="achievements">
-        <h2>Achievements</h2>
+<section id="achievements" class="block">
+  <h2>Achievements</h2>
+  <div class="content">
+    <ul class="wins">
+      <li><b>3rd prize</b> at Hacknovate 7.0, Digital Trendsetters Club.</li>
+      <li><b>CodeChef:</b> 50-day streak, 1000+ practice questions, 10+ contests, global rank under 300 and country rank under 150.</li>
+      <li>Took part in multiple online and offline hackathons, including Pitch to Prosper.</li>
+      <li>Joined Build with Bharat 2.0 at NIT Delhi, the YHills Web Development Bootcamp and the B10x Master Class.</li>
+    </ul>
+  </div>
+</section>
 
-        <ul>
-            <li>NPTEL Soft Skills Enhancement & Personality Course (Elite Certificate)</li>
-            <li>Programming in C - Infosys Springboard</li>
-            <li>Email Etiquette Course - Infosys Springboard</li>
-            <li>YUVA AI For All Certification</li>
-            <li>Participated in Online and Offline Hackathons</li>
-        </ul>
-    </section>
-
-    <section id="skills">
-        <h2>Skills</h2>
-
-        <div class="skill-box">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>Java</span>
-            <span>GitHub</span>
-            <span>Web Development</span>
-            <span>Artificial Intelligence</span>
-        </div>
-    </section>
-
-    <section id="contact">
-        <h2>Professional Accounts</h2>
-
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/ishantgupta2008" target="_blank">LinkedIn</a>
-
-            <a href="https://github.com/Ishantgupta324" target="_blank">GitHub</a>
-        </div>
-
-        <p>Email: ishantgupta2323@gmail.com</p>
-    </section>
-
-    <footer>
-        <p>© 2025 Ishant Gupta | Digital Portfolio</p>
-    </footer>
-
+<section id="contact" class="block">
+  <h2>Contact</h2>
+  <div class="content">
+    <p>Open to internships and entry-level roles. Email is the fastest way to reach me.</p>
+    <ul class="contact">
+      <li><a href="mailto:ishantgupta2323@gmail.com">ishantgupta2323@gmail.com</a></li>
+      <li><a href="tel:+919548878442">+91 95488 78442</a></li>
+      <li><a href="https://linkedin.com/in/ishantgupta2008" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://github.com/Ishantgupta324" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://www.codechef.com/users/ishantgupta162" target="_blank" rel="noopener">CodeChef</a></li>
+    </ul>
+  </div>
+</section>
+</main>
+<footer><p>© <span id="year">2026</span> Ishant Gupta · Ghaziabad, India</p></footer>
+<script src="js/script.js"></script>
 </body>
 </html>
